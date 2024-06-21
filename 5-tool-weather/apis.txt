@@ -1,0 +1,7 @@
+First, GET coordinates from city name (Geocoding Api)
+
+Here -> https://nominatim.openstreetmap.org/ui/search.html?q=Roma
+open network panel and take fetch call, from Json grab coordinates
+
+Then -> GET https://api.open-meteo.com/v1/forecast?latitude=12.2396077&longitude=41.739253&hourly=temperature_2m
+Take JSON response from here, containing all info
